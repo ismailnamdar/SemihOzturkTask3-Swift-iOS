@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7CED2F2022398B0028FD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CED2E2022398B0028FD5C /* AppDelegate.swift */; };
+		EC7CED312022398B0028FD5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CED302022398B0028FD5C /* ViewController.swift */; };
+		EC7CED342022398B0028FD5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7CED322022398B0028FD5C /* Main.storyboard */; };
+		EC7CED372022398B0028FD5C /* SemihOzturkTask3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC7CED352022398B0028FD5C /* SemihOzturkTask3.xcdatamodeld */; };
+		EC7CED392022398B0028FD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7CED382022398B0028FD5C /* Assets.xcassets */; };
+		EC7CED3C2022398B0028FD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7CED3A2022398B0028FD5C /* LaunchScreen.storyboard */; };
+		EC7CED472022398B0028FD5C /* SemihOzturkTask3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CED462022398B0028FD5C /* SemihOzturkTask3Tests.swift */; };
+		EC7CED522022398B0028FD5C /* SemihOzturkTask3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CED512022398B0028FD5C /* SemihOzturkTask3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC7CED432022398B0028FD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7CED232022398B0028FD5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7CED2A2022398B0028FD5C;
+			remoteInfo = SemihOzturkTask3;
+		};
+		EC7CED4E2022398B0028FD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7CED232022398B0028FD5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7CED2A2022398B0028FD5C;
+			remoteInfo = SemihOzturkTask3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7CED2B2022398B0028FD5C /* SemihOzturkTask3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemihOzturkTask3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7CED2E2022398B0028FD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC7CED302022398B0028FD5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC7CED332022398B0028FD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC7CED362022398B0028FD5C /* SemihOzturkTask3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SemihOzturkTask3.xcdatamodel; sourceTree = "<group>"; };
+		EC7CED382022398B0028FD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7CED3B2022398B0028FD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC7CED3D2022398B0028FD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7CED422022398B0028FD5C /* SemihOzturkTask3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemihOzturkTask3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7CED462022398B0028FD5C /* SemihOzturkTask3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemihOzturkTask3Tests.swift; sourceTree = "<group>"; };
+		EC7CED482022398B0028FD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7CED4D2022398B0028FD5C /* SemihOzturkTask3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemihOzturkTask3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7CED512022398B0028FD5C /* SemihOzturkTask3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemihOzturkTask3UITests.swift; sourceTree = "<group>"; };
+		EC7CED532022398B0028FD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7CED282022398B0028FD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7CED3F2022398B0028FD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7CED4A2022398B0028FD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7CED222022398B0028FD5C = {
+			isa = PBXGroup;
+			children = (
+				EC7CED2D2022398B0028FD5C /* SemihOzturkTask3 */,
+				EC7CED452022398B0028FD5C /* SemihOzturkTask3Tests */,
+				EC7CED502022398B0028FD5C /* SemihOzturkTask3UITests */,
+				EC7CED2C2022398B0028FD5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7CED2C2022398B0028FD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7CED2B2022398B0028FD5C /* SemihOzturkTask3.app */,
+				EC7CED422022398B0028FD5C /* SemihOzturkTask3Tests.xctest */,
+				EC7CED4D2022398B0028FD5C /* SemihOzturkTask3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7CED2D2022398B0028FD5C /* SemihOzturkTask3 */ = {
+			isa = PBXGroup;
+			children = (
+				EC7CED2E2022398B0028FD5C /* AppDelegate.swift */,
+				EC7CED302022398B0028FD5C /* ViewController.swift */,
+				EC7CED322022398B0028FD5C /* Main.storyboard */,
+				EC7CED382022398B0028FD5C /* Assets.xcassets */,
+				EC7CED3A2022398B0028FD5C /* LaunchScreen.storyboard */,
+				EC7CED3D2022398B0028FD5C /* Info.plist */,
+				EC7CED352022398B0028FD5C /* SemihOzturkTask3.xcdatamodeld */,
+			);
+			path = SemihOzturkTask3;
+			sourceTree = "<group>";
+		};
+		EC7CED452022398B0028FD5C /* SemihOzturkTask3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7CED462022398B0028FD5C /* SemihOzturkTask3Tests.swift */,
+				EC7CED482022398B0028FD5C /* Info.plist */,
+			);
+			path = SemihOzturkTask3Tests;
+			sourceTree = "<group>";
+		};
+		EC7CED502022398B0028FD5C /* SemihOzturkTask3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7CED512022398B0028FD5C /* SemihOzturkTask3UITests.swift */,
+				EC7CED532022398B0028FD5C /* Info.plist */,
+			);
+			path = SemihOzturkTask3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7CED2A2022398B0028FD5C /* SemihOzturkTask3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7CED562022398B0028FD5C /* Build configuration list for PBXNativeTarget "SemihOzturkTask3" */;
+			buildPhases = (
+				EC7CED272022398B0028FD5C /* Sources */,
+				EC7CED282022398B0028FD5C /* Frameworks */,
+				EC7CED292022398B0028FD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SemihOzturkTask3;
+			productName = SemihOzturkTask3;
+			productReference = EC7CED2B2022398B0028FD5C /* SemihOzturkTask3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC7CED412022398B0028FD5C /* SemihOzturkTask3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7CED592022398B0028FD5C /* Build configuration list for PBXNativeTarget "SemihOzturkTask3Tests" */;
+			buildPhases = (
+				EC7CED3E2022398B0028FD5C /* Sources */,
+				EC7CED3F2022398B0028FD5C /* Frameworks */,
+				EC7CED402022398B0028FD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7CED442022398B0028FD5C /* PBXTargetDependency */,
+			);
+			name = SemihOzturkTask3Tests;
+			productName = SemihOzturkTask3Tests;
+			productReference = EC7CED422022398B0028FD5C /* SemihOzturkTask3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC7CED4C2022398B0028FD5C /* SemihOzturkTask3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7CED5C2022398B0028FD5C /* Build configuration list for PBXNativeTarget "SemihOzturkTask3UITests" */;
+			buildPhases = (
+				EC7CED492022398B0028FD5C /* Sources */,
+				EC7CED4A2022398B0028FD5C /* Frameworks */,
+				EC7CED4B2022398B0028FD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7CED4F2022398B0028FD5C /* PBXTargetDependency */,
+			);
+			name = SemihOzturkTask3UITests;
+			productName = SemihOzturkTask3UITests;
+			productReference = EC7CED4D2022398B0028FD5C /* SemihOzturkTask3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7CED232022398B0028FD5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = teqwise;
+				TargetAttributes = {
+					EC7CED2A2022398B0028FD5C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V6KFG398S6;
+						ProvisioningStyle = Automatic;
+					};
+					EC7CED412022398B0028FD5C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V6KFG398S6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC7CED2A2022398B0028FD5C;
+					};
+					EC7CED4C2022398B0028FD5C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V6KFG398S6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC7CED2A2022398B0028FD5C;
+					};
+				};
+			};
+			buildConfigurationList = EC7CED262022398B0028FD5C /* Build configuration list for PBXProject "SemihOzturkTask3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7CED222022398B0028FD5C;
+			productRefGroup = EC7CED2C2022398B0028FD5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7CED2A2022398B0028FD5C /* SemihOzturkTask3 */,
+				EC7CED412022398B0028FD5C /* SemihOzturkTask3Tests */,
+				EC7CED4C2022398B0028FD5C /* SemihOzturkTask3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7CED292022398B0028FD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7CED3C2022398B0028FD5C /* LaunchScreen.storyboard in Resources */,
+				EC7CED392022398B0028FD5C /* Assets.xcassets in Resources */,
+				EC7CED342022398B0028FD5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7CED402022398B0028FD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7CED4B2022398B0028FD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7CED272022398B0028FD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7CED312022398B0028FD5C /* ViewController.swift in Sources */,
+				EC7CED372022398B0028FD5C /* SemihOzturkTask3.xcdatamodeld in Sources */,
+				EC7CED2F2022398B0028FD5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7CED3E2022398B0028FD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7CED472022398B0028FD5C /* SemihOzturkTask3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7CED492022398B0028FD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7CED522022398B0028FD5C /* SemihOzturkTask3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC7CED442022398B0028FD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7CED2A2022398B0028FD5C /* SemihOzturkTask3 */;
+			targetProxy = EC7CED432022398B0028FD5C /* PBXContainerItemProxy */;
+		};
+		EC7CED4F2022398B0028FD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7CED2A2022398B0028FD5C /* SemihOzturkTask3 */;
+			targetProxy = EC7CED4E2022398B0028FD5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC7CED322022398B0028FD5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7CED332022398B0028FD5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7CED3A2022398B0028FD5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7CED3B2022398B0028FD5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7CED542022398B0028FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC7CED552022398B0028FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7CED572022398B0028FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6KFG398S6;
+				INFOPLIST_FILE = SemihOzturkTask3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqwise.SemihOzturkTask3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC7CED582022398B0028FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6KFG398S6;
+				INFOPLIST_FILE = SemihOzturkTask3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqwise.SemihOzturkTask3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC7CED5A2022398B0028FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V6KFG398S6;
+				INFOPLIST_FILE = SemihOzturkTask3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqwise.SemihOzturkTask3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SemihOzturkTask3.app/SemihOzturkTask3";
+			};
+			name = Debug;
+		};
+		EC7CED5B2022398B0028FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V6KFG398S6;
+				INFOPLIST_FILE = SemihOzturkTask3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqwise.SemihOzturkTask3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SemihOzturkTask3.app/SemihOzturkTask3";
+			};
+			name = Release;
+		};
+		EC7CED5D2022398B0028FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V6KFG398S6;
+				INFOPLIST_FILE = SemihOzturkTask3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqwise.SemihOzturkTask3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SemihOzturkTask3;
+			};
+			name = Debug;
+		};
+		EC7CED5E2022398B0028FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V6KFG398S6;
+				INFOPLIST_FILE = SemihOzturkTask3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqwise.SemihOzturkTask3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SemihOzturkTask3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7CED262022398B0028FD5C /* Build configuration list for PBXProject "SemihOzturkTask3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7CED542022398B0028FD5C /* Debug */,
+				EC7CED552022398B0028FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7CED562022398B0028FD5C /* Build configuration list for PBXNativeTarget "SemihOzturkTask3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7CED572022398B0028FD5C /* Debug */,
+				EC7CED582022398B0028FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC7CED592022398B0028FD5C /* Build configuration list for PBXNativeTarget "SemihOzturkTask3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7CED5A2022398B0028FD5C /* Debug */,
+				EC7CED5B2022398B0028FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC7CED5C2022398B0028FD5C /* Build configuration list for PBXNativeTarget "SemihOzturkTask3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7CED5D2022398B0028FD5C /* Debug */,
+				EC7CED5E2022398B0028FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC7CED352022398B0028FD5C /* SemihOzturkTask3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC7CED362022398B0028FD5C /* SemihOzturkTask3.xcdatamodel */,
+			);
+			currentVersion = EC7CED362022398B0028FD5C /* SemihOzturkTask3.xcdatamodel */;
+			path = SemihOzturkTask3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC7CED232022398B0028FD5C /* Project object */;
+}
